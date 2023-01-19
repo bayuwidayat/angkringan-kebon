@@ -253,13 +253,14 @@ body {
   margin-top: 2rem;
   background-color: var(--bg);
   border: 1px solid #eee;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
-.kontak .row form .input-group input {
+.kontak .row form .input-group input,
+.kontak .row form .input-group textarea {
   width: 100%;
-  padding: 1.5rem;
-  font-size: 1.5rem;
+  padding: 1rem;
+  font-size: 1.4rem;
   background: none;
   color: #fff;
 }
@@ -324,7 +325,7 @@ footer .credit a {
 /* Tablet */
 @media (max-width: 758px) {
   html {
-    font-size: 62.5%;
+    font-size: 75%;
   }
 
   #hamburger-menu {
@@ -400,6 +401,6 @@ footer .credit a {
 /* Mobile */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 60%;
   }
 }

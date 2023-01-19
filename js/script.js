@@ -12,3 +12,8 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+// const navbarLink = document.querySelector(".navbar-link");
+navbarNav.addEventListener("click", function () {
+  navbarNav.classList.remove("active");
+});
